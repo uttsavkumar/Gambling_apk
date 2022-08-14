@@ -17,6 +17,13 @@ const SignupPage = () => {
                password,
                ref
             }
+        }).then(() => {
+            setOtp('')
+            setPassword('')
+            setRef('')
+            setPhone('')
+        }).catch((error) => {
+            console.log(error)
         })
     }
     const handleOtp = () => {
