@@ -11,11 +11,7 @@ const LandingPage = () => {
 
     const handleNavigation = (e) => {
         const window = e.currentTarget;
-        if (y > window.scrollY) {
-            console.log(y);
-        } else if (y < window.scrollY) {
-            console.log(y);
-        }
+       
         setY(window.scrollY);
     };
     useEffect(() => {
@@ -38,7 +34,6 @@ const LandingPage = () => {
             </div>
             <div className="container-fluid mt-5" style={{ backgroundColor: '#523680', padding: 30, color: 'white' }}>
                 <Footer />
-
             </div>
 
             {

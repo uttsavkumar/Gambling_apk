@@ -56,7 +56,7 @@
   background: #ff4874;
 }
 .item {
-  padding: 70px 10px;
+  padding: 50px 10px;
   box-shadow: 0 20px 50px rgba(160, 157, 165, 0.3);
   border-radius: 10px;
   text-align: center;
@@ -67,8 +67,8 @@
 }
 
 .steps {
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   text-align: center;
   background: #ee4d69;
   border-radius: 50%;
@@ -76,7 +76,7 @@
   position: relative;
   margin: 0 auto;
   margin-bottom: 30px;
-  line-height: 3.5;
+  line-height: 2;
   font-size: 23px;
   color:white
 }
@@ -93,4 +93,12 @@
   height: 60px;
   width: 5px;
   background-color: grey;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
 }
